@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins
+}
+
+header {
+    margin: 47px 42px;
+}
+
+.link-header {
+    margin-left: 36px;
+    color: #17233D;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.875px;
+    line-height: 29px; 
+    cursor: pointer;
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 32px;
+    cursor: pointer;
+}
+
+.logo-image {
+    display: inline-block;
+    width: 495px;
+    height: 400px;
+    margin-left: 85px;
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+}
+
+h1 {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+    color: #17233D;
+    margin-bottom: 47px;
+}
+
+p {
+
+    color: #4B505A;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.learn-more {
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    main {
+        width: 100vw;
+        height: 100vh;
+
+    }
+
+
+ .link-header {
+    display: none;
+ }
+
+ .button-header {
+    width: 91px;
+    height: 31px;
+    position: relative;
+    bottom: 10px;
+    left: 61%;
+}
+
+    section {
+        display:block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .logo-image {
+        display: block;
+        width: 62%;
+        height: calc(36% - 50px);
+        position: absolute;
+        bottom: 2%;
+        right: 21%;
+        padding: 25px;
+    }
+
+    h1 {
+        width: 79%;
+        color: #161A49;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        position: relative;
+        left: 8%;
+    }
+
+    p {
+        width: 79%;
+        color: #4B505A;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        position: relative;
+        left: 8%;
+    }
+
+    .learn-more {
+        color: #6FBF44;
+        font-size: 1.4em;
+        font-weight: 500;
+        letter-spacing: 0.2rem;
+        position: relative;
+        left: 29%;
+        bottom: 42px;
+    }
+
+}
